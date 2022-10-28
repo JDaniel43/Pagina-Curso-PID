@@ -1,0 +1,88 @@
+.button1{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 10px 50px 10px 50px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(57, 57, 57);
+}
+#navegador{
+    background-color: rgb(43, 42, 42);
+}
+.button1:hover{
+    background-color: rgb(107, 107, 107);
+}
+#id1{
+    color: rgb(41, 0, 225);
+}
+form {
+    width: 200px;
+    margin: 20px;
+
+}
+input {
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.poke-card{
+    position: relative;
+    height: 100%;
+    max-width: 300px;
+    border-radius: 4px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.poke-card ::before {
+    content: '';
+    background: radial-gradient(black 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+
+}
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 4px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px dashed rgb(250, 252, 252);
+    margin: 10px;
+}
+
+#tipo  {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed rgb(250, 252, 252);
+}
+
+.poke-img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+
+
